@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/source/reset.css">
+    <link href="style.css" rel="stylesheet">
+    <title>Pruebas1</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="/source/himouto-umaruchan-eating.gif" alt="umaru-chan">
+            <ul>
+                <li><a>Jibril</a></li>
+                <li><a>Klee</a></li>
+                <li><a>Shiro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <ul class="imgBlock">
+                <li> <a href='#' class="boton" onclick="abrirModal('modalJibril')">
+                        <img  src="/source/jibril uwu 1.jpg" alt="jibril">
+                    </a>
+                </li>
+                <li><a class="boton" onclick="abrirModal('modalKlee')">
+                        <img src="/source/af560wcdfk161.png" alt="klee">
+                    </a>
+                </li>
+                <li><a class="boton" onclick="abrirModal('modalShiro')">
+                        <img  src="/source/u.u.png" alt="shiro">
+                    </a>
+                </li>
+            </ul>
+        </article>
+        <article id="modalJibril" class="modal">
+            <section class="padreModal">
+                <div class="modal_container">
+                    <button class="modalCierre" onclick="cerrarModal('modalJibril')">X</button>
+                    <h2>Jibril</h2>
+                    <div class="modalContent">
+                        <img src="/source/jibril uwu 1.jpg" alt="">
+                        <p>Jibril (ジブリール, Jiburiru) es la más joven y fuerte de la raza Flügel.
+                            Su amor por el conocimiento comenzó incluso antes de la declaración de los Diez Compromisos
+                            . Ella está en contra de la ley de distribución
+                            de libros creada por el Consejo de 18 Alas y abandono Avant Heim , su tierra natal, para
+                            ganar la Biblioteca Nacional de Elukia del antiguo
+                            rey en un juego.
+                        </p>
+
+                    </div>
+
+                </div>
+            </section>
+        </article>
+        <article id="modalKlee" class="modal">
+            <section class="padreModal">
+                <div class="modal_container">
+                    <button class="modalCierre" onclick="cerrarModal('modalKlee')">X</button>
+                    <h2>Klee</h2>
+                    <div class="modalContent">
+                        <img src="/source/af560wcdfk161.png" alt="">
+                        <p>Klee es un personaje jugable en Genshin Impact.
+
+                            Es la hija de la intrépida y destructiva aventurera Alice, Klee se parece a su madre de muchas maneras, para consternación de los Caballeros de Favonius a quienes se le ha confiado.
+                            
+                            Llegó por primera vez en la Versión 1.0 en el gachapón "Pasos Centelleantes".
+                        </p>
+
+                    </div>
+
+                </div>
+            </section>
+        </article>
+        <article id="modalShiro" class="modal">
+            <section class="padreModal">
+                <div class="modal_container">
+                    <button class="modalCierre" onclick="cerrarModal('modalShiro')">X</button>
+                    <h2>Shiro</h2>
+                    <div class="modalContent">
+                        <img src="/source/u.u.png" alt="">
+                        <p>Shiro es descrita como un genio en la lógica y los problemas, pero tiene dificultades para
+                            comprender las emociones o el comportamiento, confiando en Sora para ayudarla a derrotar a
+                            los seres con emociones como Tet en su partido de ajedrez. También rara vez muestra mucha
+                            emoción y, a pesar de su genio intelecto, habla en oraciones cortas y concisas y en una
+                            perspectiva en tercera persona.
+                        </p>
+
+                    </div>
+
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
